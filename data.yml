@@ -1,7 +1,7 @@
 # ~/.tmuxinator/data.yml
 
 name: data
-root: ~/Dropbox/Data_Science_Startup/
+root: ~/
 
 # Optional tmux socket
 # socket_name: foo
@@ -29,13 +29,13 @@ root: ~/Dropbox/Data_Science_Startup/
 
 windows:
   - datacourse:
-	    layout: main-horizontal
-	    panes:
-	      - cd datacourse/
-	      - cd datacourse/;  'ipython' notebook
-  - website: cd website/;
-  - server:
-      layout: main-horizontal
+      layout: main-vertical
       panes:
-        - cd website/;  make server
-        - cd website/;  make ipythonnotebook
+        - cd ~/Dropbox/Data_Science_Startup/datacourse
+        - cd ~/Dropbox/Data_Science_Startup/datacourse; 'ipython' notebook
+  - website: cd ~/Dropbox/Data_Science_Startup/website
+  - server:
+      layout: even-horizontal
+      panes:
+        - cd ~/Dropbox/Data_Science_Startup/website; make server
+        - cd ~/Dropbox/Data_Science_Startup/website; make ipythonnotebook

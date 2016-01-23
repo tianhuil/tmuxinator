@@ -35,7 +35,12 @@ windows:
         - cd ~/Dropbox/Data_Science_Startup/datacourse; 'ipython' notebook
   - website: cd ~/Dropbox/Data_Science_Startup/website
   - server:
-      layout: even-horizontal
+      layout: main-horizontal
       panes:
         - cd ~/Dropbox/Data_Science_Startup/website; make server
         - cd ~/Dropbox/Data_Science_Startup/website; make ipythonnotebook
+  - remote:
+      layout: even-vertical
+      panes:
+	- cd ~/Dropbox/Data_Science_Startup/website; make remote-prod
+	- cd ~/Dropbox/Data_Science_Startup/website; make remote-dev

@@ -42,5 +42,5 @@ windows:
   - remote:
       layout: even-vertical
       panes:
-	- cd ~/Dropbox/Data_Science_Startup/website; make remote-prod
-	- cd ~/Dropbox/Data_Science_Startup/website; make remote-dev
+        - cd ~/Dropbox/Data_Science_Startup/website; make remote-prod
+        - cd ~/Dropbox/Data_Science_Startup/website; make remote-dev

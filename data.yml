@@ -33,7 +33,7 @@ windows:
       panes:
         - cd ~/Dropbox/Data_Science_Startup/datacourse
         - cd ~/Dropbox/Data_Science_Startup/datacourse; 'ipython' notebook
-  - website: cd ~/Dropbox/Data_Science_Startup/website
+  - website: cd ~/Dropbox/Data_Science_Startup/website; source activate website
   - server:
       layout: main-horizontal
       panes:

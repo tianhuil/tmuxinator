@@ -49,3 +49,8 @@ windows:
       panes:
         - cd ~/Dropbox/Data_Science_Startup/grader-prototype/
         - cd ~/Dropbox/Data_Science_Startup/datacourse-cookbook/
+  - marketing:
+      layout: even-vertical
+      panes:
+        - cd ~/Dropbox/Data_Science_Startup/marketing
+        - cd ~/Dropbox/Data_Science_Startup/marketing; ./remote.sh

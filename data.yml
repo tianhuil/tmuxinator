@@ -1,7 +1,7 @@
 # ~/.tmuxinator/data.yml
 
 name: data
-root: ~/
+root: ~/Dropbox/Data_Science_Startup/
 
 # Optional tmux socket
 # socket_name: foo
@@ -31,26 +31,26 @@ windows:
   - datacourse:
       layout: main-vertical
       panes:
-        - cd ~/Dropbox/Data_Science_Startup/datacourse
-        - cd ~/Dropbox/Data_Science_Startup/datacourse; 'ipython' notebook
-  - website: cd ~/Dropbox/Data_Science_Startup/website; source activate website
+        - cd datacourse; source activate datacourse
+        - cd datacourse; source activate datacourse; 'ipython' notebook
+  - website: cd website; source activate website
   - server:
       layout: main-horizontal
       panes:
-        - cd ~/Dropbox/Data_Science_Startup/website; source activate website; make server
-        - cd ~/Dropbox/Data_Science_Startup/website; source activate website; make ipythonnotebook
+        - cd website; source activate website; make server
+        - cd website; source activate website; make ipythonnotebook
   - remote:
       layout: even-vertical
       panes:
-        - cd ~/Dropbox/Data_Science_Startup/website; source activate website; make remote-prod
-        - cd ~/Dropbox/Data_Science_Startup/website; source activate website; make remote-dev
+        - cd website; source activate website; make remote-prod
+        - cd website; source activate website; make remote-dev
   - infrastructure:
       layout: even-vertical
       panes:
-        - cd ~/Dropbox/Data_Science_Startup/grader-prototype/
-        - cd ~/Dropbox/Data_Science_Startup/datacourse-cookbook/
+        - cd grader-prototype/
+        - cd datacourse-cookbook/
   - marketing:
       layout: even-vertical
       panes:
-        - cd ~/Dropbox/Data_Science_Startup/marketing
-        - cd ~/Dropbox/Data_Science_Startup/marketing; ./remote.sh
+        - cd marketing
+        - cd marketing; ./remote.sh

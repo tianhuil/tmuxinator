@@ -54,3 +54,9 @@ windows:
       panes:
         - cd marketing
         - cd marketing; ./remote.sh
+  - git_count:
+      layout: even-vertical
+      panes:
+        - cd git_count
+        - ipython notebook
+

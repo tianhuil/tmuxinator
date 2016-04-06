@@ -57,6 +57,6 @@ windows:
   - git_count:
       layout: even-vertical
       panes:
-        - cd git_count
-        - ipython notebook
+        - cd git_count; source activate website
+        - cd git_count; source activate website; 'ipython' notebook --port 6000
 

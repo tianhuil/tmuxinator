@@ -42,8 +42,8 @@ windows:
   - remote:
       layout: even-vertical
       panes:
-        - cd website; source activate website; make remote-prod
-        - cd website; source activate website; make remote-dev
+        - cd website; source activate website; make ipython-prod
+        - cd website; source activate website; make ipython-local
   - infrastructure:
       layout: even-vertical
       panes:

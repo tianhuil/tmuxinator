@@ -37,13 +37,13 @@ windows:
   - server:
       layout: main-horizontal
       panes:
-        - cd website; source activate website; make server
+        - cd website; make server
         - cd website; make ipythonnotebook
   - remote:
       layout: even-vertical
       panes:
-        - cd website; source activate website; make ipython-prod
-        - cd website; source activate website; make ipython-local
+        - cd website; make ipython-prod
+        - cd website; make ipython-local
   - infrastructure:
       layout: even-vertical
       panes:
@@ -57,6 +57,6 @@ windows:
   - git_count:
       layout: even-vertical
       panes:
-        - cd git_count; source activate website
-        - cd git_count; source activate website; 'ipython' notebook --port 6000
+        - cd git_count; source activate website;
+        - cd git_count; 'ipython' notebook --port 6000
 

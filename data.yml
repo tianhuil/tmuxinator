@@ -38,7 +38,7 @@ windows:
       layout: main-horizontal
       panes:
         - cd website; make server
-        - cd website; make ipythonnotebook
+        - cd website; make jupyter
   - remote:
       layout: even-vertical
       panes:

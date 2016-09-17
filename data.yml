@@ -29,7 +29,7 @@ root: ~/Dropbox/Data_Science_Startup/
 
 windows:
   - datacourse:
-      layout: main-vertical
+      layout: main-horizontal
       panes:
         - cd datacourse; source activate datacourse
         - cd datacourse; source activate datacourse; 'ipython' notebook
